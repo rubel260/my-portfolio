@@ -97,7 +97,7 @@ text-align: center;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 
 }
 .section-des{
@@ -173,16 +173,99 @@ font-weight: 400;
 }
 
 /* Resume secton */
-.resume-title{
-    color: var(--dark-01, #181818);
-text-align: center;
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-font-size: 35px;
+
+.resume .resume-content{
+    display: flex;
+}
+
+.resume .resume-title{
+
+    color: var(--dark-02, #474747);
+
+font-size: 25px;
 
 font-weight: 700;
 }
 
-.resume-content{
+.resume .title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.resume .sub-title{
+    color: var(--dark-03, #757575);
+
+    font-size: 20px;
+   
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.resume .resume-body{
+    color: var(--dark-03, #757575);
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+}
+
+.down-button{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* footer section style */
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    padding-bottom: 60px;
+    gap: 107px;
+    background: #e7e4e1;
+    padding: 150px 150px;
+}
+
+.footer-title{
+    color: var(--dark-01, #181818);
+
+
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+.footer-des{
+    color: var(--dark-02, #474747);
+
+font-size: 16px;
+
+font-weight: 400;
+
+margin-bottom: 15px;
+width: 562px;
+}
+
+/* form style */
+.form{
+    width: 100%;
+height: 44px;
+border-radius: 5px;
+background: var(--white-color, #FFF);
+margin-bottom: 15px;
+width: 100%;
+}
+
+textarea{
+    width: 100%;
 }
