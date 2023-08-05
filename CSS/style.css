@@ -44,6 +44,20 @@ font-size: 20px;
 
 }
 
+.btn-secondary{
+    width: 200px;
+    height: 64px;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+
+
+
+}
+
 .header{
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png') , url('../images/developer.png');
